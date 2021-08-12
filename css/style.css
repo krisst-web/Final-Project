@@ -1,0 +1,319 @@
+.fixed{
+    display: flex;
+}
+.wraper{
+    background-color:white;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: flex;
+}
+.nav-li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.nav-div{
+    max-width: 100%;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+}
+.empty{
+    width: 2px;
+    height: 12px;
+    background-color: black;
+    display: inline-block;
+    margin-right: 15px;
+}
+.wraper img{
+    width: 141px;
+    height: 90px;
+    margin-left:10px;
+    margin-top: 3px;
+}
+.img{
+    height:400px;
+    margin-top: 30px;
+    width: 100%;
+}
+.welcome{
+    position: relative;
+    max-width: 100%;
+}
+.welcome h1{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 70px;
+    left: 600px;
+    z-index: 1;
+    animation: welcome 18s infinite;
+
+}
+@keyframes welcome{
+    from {left: 0; }
+    to {left: 650px;}
+}
+.wel-title:hover{
+    background-color: aqua;
+    font-size: 50px;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.list{
+    width: 30px;
+    margin-left: 20px;
+    vertical-align: middle;  
+}
+.cont-a{
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+}
+.search{
+    margin-top: 25px;
+    margin-left: 80px;
+     padding: 10px;
+     font-size: 17px;
+     border-radius: 40px;
+     height: 40px;
+     background:white;
+     cursor: pointer;
+    }
+.search:hover > .search-txt {
+        width: 200px;
+        padding: 0 6px;
+    }
+.search:hover > .search-btn{
+    background-color: white;
+    transition: 0.5S;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline:none;
+    float: left;
+    padding: 0;
+    color:black;
+    font-size: 16px;
+    width: 0px;
+}
+.conteiner img{
+    width: 20px;
+    vertical-align: middle;
+}
+.featured{
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 52px rgb(0 0 0 / 18%);
+    width: 100%;
+}
+.cont-div{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-2{
+    margin-top: -30px;
+    width: 100%;
+}
+.conteiner{
+    width: 100%;
+}
+.first{
+    margin-left: 40px;
+}
+.title{
+    margin-left: 70px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.all-title{
+    color: gray;
+    font-size: 25px;
+    margin-left: 150px
+}
+.all-title:hover{
+    color: black;
+}
+.items{
+    color: gray;
+    font-size: 10px;
+    margin-top: 70px;
+    margin-left:5px;
+}
+.cottages img{
+    width: 200px;
+    border-radius: 40%;
+}
+.full{
+    display: flex;
+    justify-content: space-between;
+}
+.cottages img:hover{
+    transition: transform .0.5s; /* Animation */
+    width: 300px;
+    height: 220px;
+    margin: 0 auto;
+}
+.cont-div span{
+    font-size: 25px;
+}
+.cont-div span:hover{
+    color: black;
+    font-size: 35px;
+}
+.hotels img{
+    width: 200px;
+    border-radius: 13%;
+}
+.hotel-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hotels-span{
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.hotels{
+    margin-top: 35px;
+}
+.div-hotels{
+    display: flex;
+    justify-content: space-between;
+}
+.div-hotels2{
+    display: flex;
+    justify-content: space-between;
+}
+.hotels img:hover{
+    transition: transform .0.5s; /* Animation */
+    width: 300px;
+    height: 220px;
+    margin: 0 auto;
+}
+.culture img{
+    width: 500px;
+    border-radius: 15%;
+}
+.active{
+    margin-left: -1px;
+}
+.title-1{
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text{
+    font: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: grey;
+    margin-top: 14%;
+    margin-left: 40px;
+}
+.all{
+    display: flex;
+}
+.article-div{
+    width: 900px;
+}
+.active-1{
+    margin-top: -0.5%;
+}
+.food img{
+    width: 500px;
+    border-radius: 15%;
+    margin-top: 60px;
+}
+.p-div{
+    display: flex;
+}
+.folk img{
+    width: 500px;
+    border-radius: 15%;
+    margin-top: 60px;
+}
+.map-img{
+   max-width: 100%;
+   margin-left: 30px;
+   margin-top: 150px;
+}
+.map-img img{
+    max-width: 100%;
+    width: 1500px;
+}
+.regions-title{
+    max-width: 100%;
+    width: 800px;
+    margin-top: 50px;
+}
+.regions-title h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.regions-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.georgia{
+    font-size: 19px;
+    color: red;
+    margin-top: 400px;
+}
+.active{
+    margin-top: 10px;
+}
+.footer-wraper{
+    background-color: gray;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+}
+.first-line{
+    margin-top:50px;
+    margin-right: 40px;
+    flex-direction: column;
+}
+.contact{
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.footer-ul{
+    margin-top: 20px;
+}
+.follow{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.welcometogeo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.icon i{
+    font-size: 15px;
+}
