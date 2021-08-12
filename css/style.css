@@ -305,15 +305,248 @@
 .footer-ul{
     margin-top: 20px;
 }
-.follow{
+.paragraph{
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 30px;
 }
-.welcometogeo{
-    font-size: 30px;
-    font-weight: bold;
-}
 .icon i{
     font-size: 15px;
+}
+@media only screen and (max-width:1080px) {
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .full{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .full{
+        flex-direction: column;
+        align-items: center;
+    }
+    .full img{
+        max-width: 100%;
+        width: 100px;
+    }
+    .div-hotels{
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+    .div-hotels2{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .div-hotels img{
+        width: 100px;
+    }
+    .div-hotels2 img{
+        width: 100px;
+    }
+    .hotel-title{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .regions-title{
+        width: 30px;
+    }
+    .map-img img {
+        margin-top: 25px;
+    }
+    .paragraph{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:743px) {
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .full{
+        flex-direction: column;
+        align-items: center;
+    }
+    .full img{
+        max-width: 100%;
+        width: 100px;
+    }
+    .div-hotels{
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+    .div-hotels2{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .div-hotels img{
+        width: 100px;
+    }
+    .div-hotels2 img{
+        width: 100px;
+    }
+    .hotel-title{
+        font-size: 15px;
+    }
+    .map-img img {
+        margin-top: 25px;
+        margin-left: -40px;
+    }
+    .paragraph{
+        font-size: 15px;
+        margin-left: -30px;
+    }
+    .articles{
+        display: none;
+    }
+    .img{
+        height: 200px;
+    }
+    .wel-title{
+        display: none;
+    }
+    .cont-div span{
+        font-size: 15px;
+    }
+    .all-title{
+        font-size: 15px;
+    }
+    .hotels-span{
+        font-size: 15px;
+    }
+    .regions{
+        display: none;
+    }
+}
+@media only screen and (max-width:670px) {
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .full{
+        flex-direction: column;
+        align-items: center;
+    }
+    .full img{
+        max-width: 100%;
+        width: 100px;
+    }
+    .div-hotels{
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+    .div-hotels2{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .div-hotels img{
+        width: 100px;
+    }
+    .div-hotels2 img{
+        width: 100px;
+    }
+    .hotel-title{
+        font-size: 15px;
+    }
+    .map-img img {
+        margin-top: 25px;
+        margin-left: -40px;
+    }
+    .paragraph{
+        font-size: 15px;
+        margin-left: -30px;
+    }
+    .articles{
+        display: none;
+    }
+    .img{
+        height: 200px;
+    }
+    .wel-title{
+        display: none;
+    }
+    .cont-div span{
+        font-size: 15px;
+    }
+    .all-title{
+        font-size: 15px;
+    }
+    .hotels-span{
+        font-size: 15px;
+    }
+    .regions{
+        display: none;
+    }
+    body{
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .full{
+        flex-direction: column;
+        align-items: center;
+    }
+    .full img{
+        max-width: 100%;
+        width: 100px;
+    }
+    .div-hotels{
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+    .div-hotels2{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .div-hotels img{
+        width: 50px;
+    }
+    .div-hotels2 img{
+        width: 50px;
+    }
+    .hotel-title{
+        font-size: 10px;
+    }
+    .paragraph{
+        font-size: 5px;
+        margin-left: -30px;
+    }
+    .articles{
+        display: none;
+    }
+    .img{
+        height: 100px;
+    }
+    .wel-title{
+        display: none;
+    }
+    .cont-div span{
+        font-size: 5px;
+    }
+    .all-title{
+        font-size: 5px;
+    }
+    .hotels-span{
+        font-size: 5px;
+    }
+    .regions{
+        display: none;
+    }
 }
